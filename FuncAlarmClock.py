@@ -19,7 +19,7 @@ def alarm(seconds):
 
         print(f"{CLEAR_AND_RETURN}Alarm will sound in: {minutes_left:02d}:{seconds_left:02d}")
 
-    playsound(r"C:\Users\Ukyo\Desktop\Alarm-Clock\Alarm.mp3")
+    playsound("Alarm.mp3")
 
 
 minutes = int(input('How many minutes?:'))
